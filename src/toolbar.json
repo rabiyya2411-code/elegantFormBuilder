@@ -1,0 +1,137 @@
+[
+    {
+        "title": "Typography",
+        "items": [
+            {
+                "id": 1,
+                "tag" : "TITLE",
+                "properties" : 
+                {
+                    "Text": "Title",
+                    "Color": "#DFE0DF"
+                }
+            },
+            {
+                "id": 2,
+                "tag" : "HEADING",
+                "properties" : 
+                {
+                    "Text": "Heading",
+                    "Color": "#DFE0DF"
+
+                }
+            }, 
+            {
+                "id": 3,
+                "tag" : "PARAGRAPH",
+                "properties" : 
+                {
+                    "Text": "Paragraph",
+                    "Color": "#DFE0DF"
+                }
+            },
+            {
+                "id": 4,
+                "tag" : "UL",
+                "properties" : 
+                {
+                    "Text": "Bulleted List",
+                    "Color": "#DFE0DF" ,
+                    "Option" : [
+                        { "value": "FirstVal", "label": "Option1", "id": "op1" },
+                        { "value": "SecondVal", "label": "Option2", "id": "op2" },
+                        { "value": "ThirdVal", "label": "Option3", "id": "op3" }
+                    ]
+               
+                }
+            },
+            {
+                "id": 5,
+                "tag" : "OL",
+                "properties" : 
+                {
+                    "Text": "Numbered List",
+                    "Color": "#DFE0DF", 
+                    "Option" : [
+                        { "value": "FirstVal", "label": "Option1", "id": "op1" },
+                        { "value": "SecondVal", "label": "Option2", "id": "op2" },
+                        { "value": "ThirdVal", "label": "Option3", "id": "op3" }
+                    ]
+                
+                }
+            },
+            {
+                "id": 6,
+                "tag" : "HYPERLINK",
+                "properties" : 
+                {
+                    "Text": "HyperLink",
+                    "Link" : "#0",
+                    "Color": "#DFE0DF"
+                }
+            }
+        ]
+    },
+    
+    {
+        "title": "Form Control",
+        "items": [
+            {
+                "id": 7,
+                "tag" : "TEXTFIELD",
+                "properties" : 
+                {
+                    "Text": "Text Field:  ",
+                    "Color": "#DFE0DF"
+                }
+            },
+            {
+                "id": 8,
+                "tag" : "TEXTAREA",
+                "properties" : 
+                {
+                    "Text": "Text Area:  ",
+                    "Color": "#DFE0DF" 
+                }
+            },
+            {
+                "id": 9,
+                "tag" : "SINGLESELECT",
+                "properties" : 
+                {
+                    "Text": "Single Select",
+                    "Color": "#DFE0DF" ,
+                    "Option" : [
+                        { "value": "FirstVal", "label": "Option1", "id": "op1" },
+                        { "value": "SecondVal", "label": "Option2", "id": "op2" },
+                        { "value": "ThirdVal", "label": "Option3", "id": "op3" }
+                    ]
+                }
+            },
+            {
+                "id": 10,
+                "tag" : "MULTISELECT",
+                "properties" : 
+                {
+                    "Text": "Multi Select",
+                    "Color": "#DFE0DF" ,
+                    "Option" : [
+                        { "value": "FirstVal", "label": "Option1" , "id": "mop1"},
+                        { "value": "SecondVal", "label": "Option2" , "id": "mop2"},
+                        { "value": "ThirdVal", "label": "Option3", "id": "mop3" }
+                    ]
+                }
+            },
+            {
+                "id": 11,
+                "tag" : "SUBMITBUTTON",
+                "properties" : 
+                {
+                    "Text": "Submit Button",
+                    "Color": "#DFE0DF"
+                }
+            }
+        ]
+    }
+
+]

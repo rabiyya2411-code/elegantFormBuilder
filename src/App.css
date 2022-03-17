@@ -1,38 +1,164 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+ 
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  background-color: #D6A54D;
+  font-size: calc(7px + 1.5vmin);
+  color: #3E1D00;
+  min-height: 100vh;
+  font-family: 'K2D', sans-serif;
+}
+.center{
+  display: flex;
+  align-content: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.heading{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  background-color: #3E1D00;
+  color: #DFE0DF;
+  padding: 25px;
+  font-family: 'K2D', sans-serif;
+  font-weight: bold;
+
+}
+.drag-n-drop{
+  padding: 0.5rem;
+  display: grid;
+  gap: 0.5rem;
+  width: 100%;
+  height: 100%;
+  grid-template-rows: repeat(auto, 300px);
+}
+.drag-n-drop-toolbar{
+  /* display: grid; */
+  background-color: #D6A54D;
+  align-content: flex-start;
+  padding: 0.5rem;
+  min-height:inherit;
+  width: 25%;
+  height: 100%;
+  /* gap: .5rem; */
+  /* margin-top: 0.4rem;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  margin-bottom: 0.5rem; */
+  /* border-radius: 5px; */
+}
+.form{
+  justify-content: center;
+}
+.drag-n-drop-stage-title{
+  display: grid;
+  background-color: #AD8029;
+  align-content: flex-start;
+  padding: 0.5rem;
+  /* gap: .5rem; */
+  width: 50%;
+  min-height:fit-content;
+  /* margin-top: 0.4rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 5px; */
+}
+.drag-n-drop-stage{
+  display: grid;
+  background-color:#845D00; 
+  align-content: flex-start;
+  padding: 0.6rem;
+  gap: .5rem;
+  width: 100%;
+  height: 100%;
+  margin-top: 0.4rem;
+  margin-bottom: 0.5rem;
+  min-height:inherit;
+  border-radius: 5px;
+}
+.drag-n-drop-properties{
+  background-color: #D6A54D;
+  align-content: flex-start;
+  padding: 0.5rem;
+  display: grid;
+  /* gap: .5rem; */
+  width: 25%;
+  height: 100%;
+  /* margin-top: 0.4rem;
+  margin-right: 0.5rem; */
+  /* margin-left: 0.5rem; */
+  /* margin-bottom: 0.5rem; */
+  min-height:inherit;
+  /* border-radius: 5px; */
+}
+.dnd-group{
+
+  border-radius: 5px;
+  padding: .5rem;
+  
+}
+.dnd-group-settings{
+  background-color: #9a9fa8;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  padding: .5rem;
+}
+.stage-dnd-group{
+  padding: .5rem;
+  border-radius: 5px;
+}
+.dnd-item{
+  display: flex;
+  justify-content: center;
+  min-height: 40px;
+  background-color: #845D00;
+  border-radius: 5px;
+  color: #DFE0DF;
+  margin-top: 15;
+  font-family: 'K2D', sans-serif;
+}
+.dnd-item-prop{
+  display: flex;
+  justify-content: center;
+}
+.dnd-item-stage{
+  justify-content: center;
+  min-height: 25px;
+  background-color: hsla(172, 18%, 26%, 0.712);
+  border-radius: 5px;
+  color: #f0f3f8;
+}
+.dnd-item-stage:not(:last-of-type){
+  margin-bottom: .5rem;
+}
+.dnd-item-stage * {    
+  margin: 0;
+}
+.dnd-item:not(:last-of-type){
+  margin-bottom: .5rem;
+}
+.dnd-item * {    
+  margin: 0;
+  font-size: .5rem;
+}
+.current{
+  background-color: rgb(11, 147, 226);
+}
+.group-title{
+  color: #3E1D00;
+  font-family: 'K2D', sans-serif;
+  text-align: left;
+  margin-bottom: .5rem;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+.group-Accordian{
+  color: #3E1D00;
+  font-family: 'K2D', sans-serif;
+  text-align: left;
+  margin-bottom: .5rem;
+  font-size: 1.4rem;
+  font-weight: bold;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

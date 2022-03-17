@@ -1,0 +1,14 @@
+[
+    {
+    "title": "Settings",
+    "items": [
+        {
+            "id": 12,
+            "tag" : "Submit URL ",
+            "properties" : 
+            {
+                "innerHTML": "Submit URL"            }
+        }
+    ]
+}
+]
